@@ -1,14 +1,13 @@
 import NavBar from "./components/NavBar";
+import ItemListContainer from "./components/ItemListContainer";
+
 
 function App() {
   return <>
     <NavBar />
-    <h2>Welcome</h2>
-
-
-
-
-  </> 
+    <ItemListContainer greeting="Bienvenido"/>
+  </>
 }
+
 
 export default App;
