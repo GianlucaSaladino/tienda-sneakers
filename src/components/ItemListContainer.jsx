@@ -1,9 +1,10 @@
-import "./ItemListContainer.css";
+import ItemCount from "./ItemCount";
 
-export default function ItemListContainer({greeting}) {
+export const ItemListContainer = ({ greeting }) => {
   return (
     <>
-        <h1>{greeting}</h1>
+      <h1>{greeting}</h1>
+      <ItemCount />
     </>
-  )
-}
+  );
+};
