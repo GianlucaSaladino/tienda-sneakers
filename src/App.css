@@ -1,0 +1,106 @@
+/* #region NavBar*/
+
+.site-title {
+  font-size: 1.5rem;
+}
+
+.nav {
+  margin: 0;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.nav p {
+  margin: 0;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav a:hover {
+  font-size: 1.1rem;
+}
+
+.cartImage {
+  height: 2rem;
+  width: 2rem;
+}
+
+/* #endregion */
+
+body {
+  background-color: white;
+  color: black;
+}
+
+.counter-box {
+  margin: 1rem;
+  background-color: white;
+  border: #333 solid 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 150px;
+}
+
+.counter-box p {
+  font-size: 1.1rem;
+  margin: 5px;
+}
+
+.btn {
+  background-color: rgba(0, 0, 0, 0.65);
+  padding: 10px 15px;
+  margin: 2px;
+  color: #fafafa;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+@media (max-width: 800px) {
+  .counter-box {
+    max-width: 80vw;
+  }
+}
+
+.item {
+  margin: 0 !important;
+  padding: 1rem;
+  background-color: white;
+  border: #333 solid 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+}
+
+.item img {
+max-width: 20rem;
+max-height: 20rem;
+}
