@@ -104,3 +104,57 @@ body {
 max-width: 20rem;
 max-height: 20rem;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: #333 solid 5px;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.detailImage {
+  max-width: 20rem;
+  max-height: 20rem;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 1rem;
+  width: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-break: break-all;
+}
+
+h2 {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

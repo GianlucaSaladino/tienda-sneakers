@@ -40,6 +40,7 @@ export const ItemListContainer = () => {
     <>
       <ItemCount stock={10} addToCart={AddToCart} min={1} sum={1} res={1} />
       <ItemList data={data} />
+      
     </>
   );
 };
